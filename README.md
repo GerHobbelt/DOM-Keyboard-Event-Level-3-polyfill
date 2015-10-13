@@ -22,7 +22,7 @@ Implementation of [DOM 3 Keyboard Events](http://www.w3.org/TR/DOM-Level-3-Event
 
 ## Goal
 
-* Normalize Keyroard Events across modern browsers
+* Normalize Keyboard Events across modern browsers
 * Implement ["map event.key to character values of a normal QUERTY (en-US) layout"](https://www.w3.org/Bugs/Public/show_bug.cgi?id=19827) proposal
 * Implement [KeyboardEvent constructor](http://www.w3.org/TR/DOM-Level-3-Events/#idl-interface-KeyboardEvent-initializers)
 
@@ -44,6 +44,6 @@ Implementation of [DOM 3 Keyboard Events](http://www.w3.org/TR/DOM-Level-3-Event
 * Theoretically polyfill would work in any browser with `addEventListener` support
 * You can bring IE6-8 support with [DOM and ES5 shim](http://github.com/termi/ES5-DOM-SHIM) (need tests)
 
-## Licence
+## License
 	
 	MIT
